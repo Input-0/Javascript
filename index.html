@@ -1,45 +1,92 @@
-<html>
-    <head></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Login Form</title>
+</head>
 
-    <body>
-        <form>
-           <fieldset>
-            <legend>LOGIN-Form</legend>
-             <label>
-                NAME:<input type="text" placeholder="enter your name" id="Username" name="username" required>
-            </label>
-            <label>
-                Email:<input type="email" placeholder="enter your email" id="email" name="useremail" required>
-            </label>
-            <label >
-                <input type="password" placeholder="passwer" id="userpass" name="userpassword">
-            </label>
-            <label>
-                Hobbies:
-                <input type="checkbox" value="cricket" name="hobbie" id="criect">:cricket
-                <input type="checkbox" value="football" name="hobbie" id="football">:cricket
-            </label>
-            <label >
-                Gendre:
-                <input type="radio" value="male" name="gender" id="male">Male
-                <input type="radio" value="female" name="gender" id="female">Female
-            </label>
-            <select name="city" id="city">
-                <option value="" disabled selected>Select your city</option>
-                <option value="shimla">shimla</option>
-                <option value="chandigrah">chandigrah</option>
-            </select>
+<body>
 
-            <input type="file">
-            <input type="color">
-            <input type="month">
-            <input type="search">
+<form action="#" method="post" autocomplete="on">
+    <fieldset>
+        <legend>Login Form</legend>
 
-            <input type="range" min="10" max="15">
-            <textarea name="address" id="address" col="40" rows="10"></textarea>
-            <button type="submit">submit</button>
-            <button type="reset">reset</button>
-           </fieldset>
-        </form>
-    </body>
+        <!-- Name -->
+        <label for="username">Name:</label><br>
+        <input type="text" id="username" name="username" 
+               placeholder="Enter your name" required minlength="3"><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="useremail" 
+               placeholder="Enter your email" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="userpassword" 
+               placeholder="Enter password" required minlength="6"><br><br>
+
+        <!-- Hobbies -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" value="cricket" name="hobby"> Cricket
+        <input type="checkbox" value="football" name="hobby"> Football
+        <input type="checkbox" value="music" name="hobby"> Music<br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" value="male" name="gender" required> Male
+        <input type="radio" value="female" name="gender"> Female
+        <input type="radio" value="other" name="gender"> Other<br><br>
+
+        <!-- City -->
+        <label for="city">City:</label><br>
+        <select name="city" id="city" required>
+            <option value="" disabled selected>Select your city</option>
+            <option value="shimla">Shimla</option>
+            <option value="chandigarh">Chandigarh</option>
+            <option value="delhi">Delhi</option>
+        </select><br><br>
+
+        <!-- File Upload -->
+        <label>Upload File:</label><br>
+        <input type="file" accept=".jpg,.png,.pdf"><br><br>
+
+        <!-- Color -->
+        <label>Favorite Color:</label><br>
+        <input type="color"><br><br>
+
+        <!-- Month -->
+        <label>Select Month:</label><br>
+        <input type="month"><br><br>
+
+        <!-- Search -->
+        <label>Search:</label><br>
+        <input type="search" placeholder="Search here"><br><br>
+
+        <!-- Range -->
+        <label>Experience (10–15):</label><br>
+        <input type="range" min="10" max="15"><br><br>
+
+        <!-- Date -->
+        <label>Date of Birth:</label><br>
+        <input type="date" required><br><br>
+
+        <!-- Phone -->
+        <label>Phone Number:</label><br>
+        <input type="tel" pattern="[0-9]{10}" placeholder="10-digit number"><br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea name="address" id="address" cols="40" rows="5"
+                  placeholder="Enter your address"></textarea><br><br>
+
+        <!-- Buttons -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </fieldset>
+</form>
+
+</body>
 </html>
