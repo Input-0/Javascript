@@ -2,57 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <!-- Makes site responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Description for SEO -->
-    <meta name="description" content="HTML media elements example">
-
-    <title>HTML Media Example</title>
+    <title>Simple Webpage</title>
 </head>
-
 <body>
 
-    <!-- Heading -->
-    <h1>HTML Media Demo</h1>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="https://www.wikipedia.com">Home</a> |
+            <a href="https://www.wikipedia.com">About</a> |
+            <a href="https://www.wikipedia.com">Contact</a>
+        </nav>
+        <hr>
+    </header>
 
-    <!-- Link -->
-    <h2>Link</h2>
-    <a href="https://www.wikipedia.org/" target="_blank" title="Go to Wikipedia">
-        Visit Wikipedia
-    </a>
+    <main>
 
-    <!-- Image -->
-    <h2>Image</h2>
-    <img 
-        src="https://cdn.pixabay.com/photo/2015/04/19/08/32/flower-729510_1280.jpg"
-        alt="Flower Image"
-        title="Beautiful Flower"
-        width="300"
-    >
+        <section>
+            <h2>Flower Gallery</h2>
 
-    <!-- Audio -->
-    <h2>Audio</h2>
-    <audio controls loop>
-        <source src="https://www.dofactory.com/media/epic.mp3" type="audio/mpeg">
-        Your browser does not support audio
-    </audio>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Flower image">
+                <figcaption>Beautiful Flower 1</figcaption>
+            </figure>
 
-    <!-- Video -->
-    <h2>Video</h2>
-    <video controls width="400" muted loop>
-        <source src="https://www.dofactory.com/media/movie.mp4" type="video/mp4">
-        Your browser does not support video
-    </video>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Flower image">
+                <figcaption>Beautiful Flower 2</figcaption>
+            </figure>
 
-    <!-- Iframe -->
-    <h2>Iframe</h2>
-    <iframe 
-        src="https://www.wikipedia.org/" 
-        width="600" 
-        height="400">
-    </iframe>
+        </section>
+
+        <hr>
+
+        <article>
+            <h2>About Flowers</h2>
+            <p>
+                Flowers are one of the most beautiful creations of nature. They add color,
+                fragrance, and freshness to our lives. Different flowers have different
+                meanings and are used in various occasions like weddings, festivals, and
+                celebrations.
+            </p>
+            <h3>Why Flowers are Important?</h3>
+            <p>
+                Flowers play a crucial role in pollination and help maintain ecological balance.
+                They are also widely used for decoration and expressing emotions.
+            </p>
+        </article>
+
+        <hr>
+
+        <aside>
+            <h3>Quick Info</h3>
+            <ul>
+                <li>Flowers need sunlight</li>
+                <li>They require water</li>
+                <li>Used in perfumes</li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 My Website</p>
+        <nav>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms</a>
+        </nav>
+    </footer>
 
 </body>
 </html>
