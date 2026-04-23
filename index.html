@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -13,3 +14,92 @@
     <script src="first.js"></script>
 </body>
 </html>
+=======
+    <title>Enhanced Login Form</title>
+</head>
+
+<body>
+
+<form action="#" method="post" autocomplete="on">
+    <fieldset>
+        <legend>Login Form</legend>
+
+        <!-- Name -->
+        <label for="username">Name:</label><br>
+        <input type="text" id="username" name="username" 
+               placeholder="Enter your name" required minlength="3"><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="useremail" 
+               placeholder="Enter your email" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="userpassword" 
+               placeholder="Enter password" required minlength="6"><br><br>
+
+        <!-- Hobbies -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" value="cricket" name="hobby"> Cricket
+        <input type="checkbox" value="football" name="hobby"> Football
+        <input type="checkbox" value="music" name="hobby"> Music<br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" value="male" name="gender" required> Male
+        <input type="radio" value="female" name="gender"> Female
+        <input type="radio" value="other" name="gender"> Other<br><br>
+
+        <!-- City -->
+        <label for="city">City:</label><br>
+        <select name="city" id="city" required>
+            <option value="" disabled selected>Select your city</option>
+            <option value="shimla">Shimla</option>
+            <option value="chandigarh">Chandigarh</option>
+            <option value="delhi">Delhi</option>
+        </select><br><br>
+
+        <!-- File Upload -->
+        <label>Upload File:</label><br>
+        <input type="file" accept=".jpg,.png,.pdf"><br><br>
+
+        <!-- Color -->
+        <label>Favorite Color:</label><br>
+        <input type="color"><br><br>
+
+        <!-- Month -->
+        <label>Select Month:</label><br>
+        <input type="month"><br><br>
+
+        <!-- Search -->
+        <label>Search:</label><br>
+        <input type="search" placeholder="Search here"><br><br>
+
+        <!-- Range -->
+        <label>Experience (10–15):</label><br>
+        <input type="range" min="10" max="15"><br><br>
+
+        <!-- Date -->
+        <label>Date of Birth:</label><br>
+        <input type="date" required><br><br>
+
+        <!-- Phone -->
+        <label>Phone Number:</label><br>
+        <input type="tel" pattern="[0-9]{10}" placeholder="10-digit number"><br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea name="address" id="address" cols="40" rows="5"
+                  placeholder="Enter your address"></textarea><br><br>
+
+        <!-- Buttons -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </fieldset>
+</form>
+
+</body>
+</html>
+>>>>>>> d01fd5f093e7632ffb1027d84be43ba3cbc2bd72
