@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-height:60vh ;
+    background-color: green;
+    width: 100%;
+    display: flex;
+}
+
+.product img{
+    height: 100px;
+    width: 100px;
+
+}
