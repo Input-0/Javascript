@@ -1,76 +1,75 @@
-// let arr = [1,2,3,4]
+// let arr = [1,2,3,4,5,6]
 
-// let ar = arr.reduce((acc,curr)=>{
-//      acc.push(curr)
-//      return acc
+let ob = {
+    name:"kawal",
 
-// },[])
-// console.log(ar)
+    age:25,
+    gender:"female",
+    role:{
+        firstRole:{
+            first:"frontend",
+            second:"backend"
+        },
+        secondRole:"devops",
+        third:"system-designer"
+    },
+    eat(){
+        let ob2 = {
+            gender:"male",
+            age:34
+        }
 
-// let a = [1,2,3,4,5,6]
-
-// a.forEach((val)=>{
-//     console.log(val+2);
-    
-
-// })
-
-// let a = [1,2,3,4,5,6]
-
-// for(let val in a){
-//     console.log(val);
-    
-// }
+        return ob2
 
 
-// Object ------------------------------------------------------>
-
-let ob = { //template letrals
-    name:"tinashe",
-    gender:"male",
-    "current age":21,
-    // run:function(data){
-    //     console.log( this.name,"is running" );
-        
-
-    // }
-
-    run(){
-        console.log( this.name,"is running" );
-        
 
     }
+   
+   
 
+    //  get run(){
+    //  this.name = "ten"
+     
+        
+    // },
 
-} 
-// ob.run("tinashe")
-// ob.run()
-// function inside an obj is called method
+    // set run(d1){
+    //     this.name = d1
 
-
-
-// ob.age = 22
-// ob.role = "devloper"
-// delete ob.age
-// ob.age= 23
-
-
-// console.log(ob["current age"]); // bracket notation 
-
-// console.log(Object.entries(ob));
-// console.log(Object.keys(ob));
-// console.log(Object.values(ob));
-
-// Object.freeze(ob)
-
-// ob.gender = "female"
-// delete ob["current age"]
-
-// Object.seal(ob)
-
-//  ob.fun = "one"
+    // }
+}
+// ob.run = "rohan"
+// console.log(ob);
 
 // console.log(ob);
+
+
+// console.log(Object.entries(ob));
+
+// Object.freeze(ob)
+// Object.seal(ob)
+// ob.name = "four"
+// ob.lifeSpan = 100
+// delete ob.name
+
+// for()
+// for(let a in ob){
+//     console.log(a,ob[a]);
+    
+// // }
+// console.log(ob.eat()?.gender.firstGender?.two);
+// // console.log(ob);
+
+
+// let {name:userName,age} = ob
+
+let arr = [1,2,3,4,5,6]
+
+const [first,second,third] = arr
+
+console.log(first,second,third);
+
+
 
 
 
