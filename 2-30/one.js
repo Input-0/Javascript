@@ -1,29 +1,29 @@
 // let arr = [1,2,3,4,5,6]
 
-let ob = {
-    name:"kawal",
+// let ob = {
+//     name:"kawal",
 
-    age:25,
-    gender:"female",
-    role:{
-        firstRole:{
-            first:"frontend",
-            second:"backend"
-        },
-        secondRole:"devops",
-        third:"system-designer"
-    },
-    eat(){
-        let ob2 = {
-            gender:"male",
-            age:34
-        }
+//     age:25,
+//     gender:"female",
+//     role:{
+//         firstRole:{
+//             first:"frontend",
+//             second:"backend"
+//         },
+//         secondRole:"devops",
+//         third:"system-designer"
+//     },
+//     eat(){
+//         let ob2 = {
+//             gender:"male",
+//             age:34
+//         }
 
-        return ob2
+//         return ob2
 
 
 
-    }
+//     }
    
    
 
@@ -37,7 +37,7 @@ let ob = {
     //     this.name = d1
 
     // }
-}
+// }
 // ob.run = "rohan"
 // console.log(ob);
 
@@ -63,11 +63,31 @@ let ob = {
 
 // let {name:userName,age} = ob
 
-let arr = [1,2,3,4,5,6]
+// let arr = [1,2,3,4,5,6]
 
-const [first,second,third] = arr
+// const [first,second,third] = arr
 
-console.log(first,second,third);
+// console.log(first,second,third);
+
+// let ob = {
+//     name:"one",
+//     age:12,
+    
+// }
+
+// let ar = [1,2,3,4,5]
+
+
+// let {name:userName} = ob
+
+// let [first,second,three,four] = ar
+
+
+// console.log(first);
+
+
+// console.log(ob.role.first.first?.second);
+
 
 
 
