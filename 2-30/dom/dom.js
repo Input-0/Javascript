@@ -14,7 +14,7 @@ let contain = document.getElementsByName("container")[0]
 // header.classList.toggle("bottom")
 
 // header.setAttribute("style","background-color:green;")
-let id = header.getAttribute("id")
+// let id = header.getAttribute("id")
 
 // header.style.cssText = "background-color:green;color:white; padding:20px"
 
@@ -27,7 +27,7 @@ let id = header.getAttribute("id")
 // firstElementChild.nextElementSibling.previousElementSibling
 
 
-console.log(id);
+// console.log(id);
 
 
 
